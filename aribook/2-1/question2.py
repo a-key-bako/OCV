@@ -1,4 +1,4 @@
-# 蟻本 p.35 深さ優先探索
+# 蟻本 p.35 全探索 - 深さ優先探索
 N, M = 0, 0
 field = [[0 for _i in range(100)] for _j in range(100)]
 
@@ -30,4 +30,5 @@ for i in range(N):
     l = input()
     for j, c in enumerate(l):
         field[i][j] = c
+
 solve()
