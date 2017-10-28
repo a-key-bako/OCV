@@ -32,3 +32,24 @@ for i in range(N):
         field[i][j] = c
 
 solve()
+
+"""
+sample input
+
+10
+12
+W........WW.
+.WWW.....WWW
+....WW...WW.
+.........WW.
+.........W..
+..W......W..
+.W.W.....WW.
+W.W.W.....W.
+.W.W......W.
+..W.......W.
+
+sample output
+
+3
+"""
