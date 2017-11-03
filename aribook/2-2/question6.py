@@ -3,7 +3,9 @@ def solve():
     # S[a], a[a+1], S[b]が残っている文字列
     ans = ""
     a, b = 0, N-1
+    
     while a <= b:
+        # 左から見た場合と右から見た場合を比較
         left = False
         for i in range(b-a):
             if S[a+i] < S[b-i]:
